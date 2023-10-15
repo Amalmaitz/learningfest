@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my first css</title>
+    <style>
+    body  {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: auto;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 150px;
+           width:500px;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            border: 1px solid black;
+            margin: 5px ;
+            padding: 10px;
+        }
+
+        .box label {
+            margin-left:10px; 
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="container"> <h3 style="text-align: center;">Create a simple to-do list with each content on each box arranged vertically</h3>
+        <div class="box">
+            <input type="radio">
+            <label for="css">Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+        </div>
+        <div class="box">
+            <input type="radio">
+            <label for="javascript">Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+        </div>
+        <div class="box">
+            <input type="radio" >
+            <label for="html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+        </div>
+
+        <div class="box">
+            <input type="radio">
+            <label for="html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+        </div>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>my first css</title>
+</head>
+<style>
+.fr{
+height:50rcm;
+display:flex;
+align-items: center;
+justify-content: center;
+color:brown;
+
+}
+.cr{
+    background: linear-gradient(rgb(24, 109, 166),rgb(11, 197, 11),rgb(218, 211, 12),rgb(233, 22, 212));
+    background-size: 300%,300%;
+    animation:ani 5s infinite linear;
+}
+@keyframes ani{
+    from{
+        background-position:0% 50%;
+    }
+    to{
+       background-position:  150px;
+    }
+}
+
+</style>
+
+
+
+<body>
+
+<div class="fr cr">Rainbow Background</div>
+
+
+
+</body>
+</html>
