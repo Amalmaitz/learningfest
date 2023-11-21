@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>sum</title>
+        <Script>
+            function addNum(){
+                var val1 = parseInt(document.getElementById("value1").value);
+                var val2 = parseInt(document.getElementById("value2").value);
+                var ansD = document.getElementById("answer");
+                ansD.value = val1+val2;
+            }
+
+
+        </Script>
+        <style>
+
+            #div{
+                margin-left:50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div">
+            first number : <input type="text" name="value1" value="" id="value1"> 
+            <br><br>
+            second number : <input type="text" name="value2" value="" id="value2">
+            <br><br>
+            <input type="button"  value="add" name="submit" onclick="addNum()">
+            <br><br>
+            answer : <input type="text" id="answer" name="answer" value="">
+
+        </div>
+    </body>
+</html>    

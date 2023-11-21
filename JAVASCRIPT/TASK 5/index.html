@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data</title>
+</head>
+<body style="display: flex;align-items:center;justify-content:center;flex-direction:column;height:90vh;">
+    <h2>People Data</h2>
+
+    <ul id="peopleList"></ul>
+
+    <script>
+        var data = [
+            {
+                "name": "Alice",
+                "age": 25,
+                "place": "New York",
+                "dob": "1998-03-12"
+            },
+            {
+                "name": "Bob",
+                "age": 32,
+                "place": "Los Angeles",
+                "dob": "1991-07-19"
+            },
+            {
+                "name": "Charlie",
+                "age": 41,
+                "place": "Chicago",
+                "dob": "1982-11-03"
+            },
+            {
+                "name": "David",
+                "age": 18,
+                "place": "Houston",
+                "dob": "2005-05-08"
+            },
+            {
+                "name": "Emily",
+                "age": 29,
+                "place": "San Francisco",
+                "dob": "1994-09-26"
+            },
+            {
+                "name": "Frank",
+                "age": 36,
+                "place": "Boston",
+                "dob": "1987-12-30"
+            },
+            {
+                "name": "Grace",
+                "age": 22,
+                "place": "Miami",
+                "dob": "2001-01-14"
+            },
+            {
+                "name": "Harry",
+                "age": 47,
+                "place": "Seattle",
+                "dob": "1976-06-21"
+            }
+        ];
+
+        var list = document.getElementById('peopleList');
+        data.forEach(function(person) {
+            var listItem = document.createElement('li');
+            listItem.innerHTML = 'Name: ' + person.name + ', Age: ' + person.age;
+            list.appendChild(listItem);
+        });
+    </script>
+</body>
+</html>

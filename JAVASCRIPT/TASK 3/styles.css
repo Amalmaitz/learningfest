@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top : 50px;
+    
+}
+
+form {
+    margin-top: 20px;
+    
+}
+#principal{
+    margin: 20px;
+}
+
+#annualRate{
+    margin: 20px;
+}
+
+#loanTenure{
+    margin: 20px;
+}

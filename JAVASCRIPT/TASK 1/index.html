@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>roll dice</title>
+    </head>
+    <body>
+        <h3 id="display"></h3>
+        <div>
+
+            <button type="button" class="btn-roll" onclick="roll()">Roll Dice</button>
+        </div>
+       <script>
+        function roll(){
+
+            var x=Math.floor(Math.random()*6)+1;
+            document.getElementById("display").innerHTML=x;
+        }
+
+
+       </script> 
+
+    </body>
+</html>
